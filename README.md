@@ -28,8 +28,32 @@ lenguage con gran proyección de futuro.
 los cuales son básicos y esenciales para cualquier programador.
 
 
-### Variables con Kotline
-
 #### Estructura simple kotline
 
+Como podemos observar, desde principio muestra similitudes con otros lenguajes de programación como **C++** o **Java**. **Main** será la función principal que ejecutará el programa secuencialmente de arriba abajo. Desde ahí podremos llamar a otras funciones, declarar variables, realizar operaciones sobre ellas, crear objetos y trabajar con ellos ..., como veremos más adelante.
+
 [![img1](https://github.com/lorenmanu/kotlineTutorial/blob/main/imgsVariablesKotline/img1.png)]
+
+### Variables con Kotline
+
+En Kotlin existen las palabras clave **val** para crear una variable constante o **var** para crear una variable. Si queremos declarar el tipo de variable, tal como String o Int, se indica después del nombre de la variable.
+
+```
+val integer: Int = 1
+val firstName: String = "Chike"
+
+```
+
+#### Tipos básicos
+
+En comparación con Java, encontramos dos tipos de tipo:
+- Primitivo (ej. int, long, boolean, byte, char, etc.)
+- Tipos de referencia (ej. array, String). Java tiene librerías (como java.lang.Integer) para que los tipos primitivos se comporten como objetos.
+
+En el caso de **C++**, todos los datos básicos son de tipo primitivo, a no ser que usemos alguna librería de **stl**.
+
+En Kotlin, a diferencia de **C++** y **Java**, todos los tipos son objetos.
+
+Para los datos numéricos, disponemos de las siguientes variables.
+
+[![img2](https://github.com/lorenmanu/kotlineTutorial/blob/main/imgsVariablesKotline/img2.png)]
