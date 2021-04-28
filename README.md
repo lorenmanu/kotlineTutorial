@@ -29,3 +29,7 @@ los cuales son básicos y esenciales para cualquier programador.
 
 
 ### Variables con Kotline
+
+#### Estructura simple kotline
+
+[![img1]()]
