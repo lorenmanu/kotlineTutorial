@@ -85,3 +85,68 @@ En Kotlin, hay dos formas para crear una colección de elementos: usando la func
 Ahora, para acceder a cualquiera del elemento, podemos usar su índice: myArray[2].
 
 [![img3](https://github.com/lorenmanu/kotlineTutorial/blob/main/imgsVariablesKotline/img3.png)]
+
+### Estructuras de control en Kotline
+#### Estructura de control if
+La primera estructura de control que veremos es **if**. En el cual podemos trabajar de las siguientes formas.
+```
+
+// Uso tradicional
+var max = a
+if (a < b) max = b
+// Con else
+var max: Int
+if (a > b) {
+		max = a
+} else {
+		max = b
+}
+
+// Como expresión
+val max = if (a > b) a else b
+
+```
+
+- En el primer caso, evaluará si **a** es menor a **b**, en caso afirmativo asignará a la variable **max** el valor b.
+- En el segundo caso, evaluará si **a** es mayor a **b**, en caso afirmativo asignará a la variable **max** el valor a y en caso contrario, contemplado por la declaración **else**, asignará **b** a **max**.
+
+ #### Estructura de control when
+
+ Es similar a switch en **C++**.
+ ```
+
+ when (x) {
+		1 -> print("x == 1")
+		2 -> print("x == 2")
+		else -> {
+				print("x no es ni 1 ni 2")
+		}
+
+ ```
+
+Relaciona la varieable **x** con todas las ramas secuencialmente hasta que alguna rama cumple la condición que contempla. when puede utilizarse tanto como expresión como una declaración. Al igual que if, cada rama puede ser un bloque, y su valor es el valor de la última expresión en el bloque.
+
+ #### Estructura de control for
+
+ Un bucle for repite una operación en función del iterador que le indicamos en la declaración.
+
+ ```
+
+ for (i in 1..3) {
+    println(i)
+}
+
+
+ ```
+
+ Para iterar en un array o una lista con un índice se haría del siguiente modo:
+
+ ```
+
+ for ((index, value) in array.withIndex()) {
+		 println("El elemento $index es $value")
+ }
+
+
+ ```
+Donde **index** hace referencia al indice con el que estamos trabajando del **array**, y **value** al valor del elemento que esta en dicho índice del **array**.
