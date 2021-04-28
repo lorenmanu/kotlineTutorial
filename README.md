@@ -84,4 +84,4 @@ En Kotlin, hay dos formas para crear una colección de elementos: usando la func
 
 Ahora, para acceder a cualquiera del elemento, podemos usar su índice: myArray[2].
 
-[![img3](https://github.com/lorenmanu/kotlineTutorial/blob/main/imgsVariablesKotline/img2.png)]
+[![img3](https://github.com/lorenmanu/kotlineTutorial/blob/main/imgsVariablesKotline/img3.png)]
