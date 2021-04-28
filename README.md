@@ -32,4 +32,4 @@ los cuales son básicos y esenciales para cualquier programador.
 
 #### Estructura simple kotline
 
-[![img1]()]
+[![img1](https://github.com/lorenmanu/kotlineTutorial/blob/main/imgsVariablesKotline/img1.png)]
