@@ -57,3 +57,31 @@ En Kotlin, a diferencia de **C++** y **Java**, todos los tipos son objetos.
 Para los datos numéricos, disponemos de las siguientes variables.
 
 [![img2](https://github.com/lorenmanu/kotlineTutorial/blob/main/imgsVariablesKotline/img2.png)]
+
+En la anterior imagen podemos ver el tipo de variables que  hay, el numero de bit que ocupan en memoria. **Double** y **Float** son para valores decimales, las cuatro siguientes son para enteros. Además de ellas, también tenemos para caracteres(**Char**), vectores o colecciones de elemento(**Array**) ...
+
+En las variables de tipo numerico vemos funciones de ayuda que convierten de un tipo de número a otro : toByte(), toInt(), toLong(), toFloat(), toDouble(), toChar(), toShort().
+
+
+```
+val myInt = 987
+val myLong = myInt.toLong()
+
+```
+
+También puedes convertir un String en un tipo número.
+
+```
+
+val stringNumber = "101"
+val intValue = stringNumber.toInt()
+
+```
+
+#### Vectores o colecciones de elementos
+
+En Kotlin, hay dos formas para crear una colección de elementos: usando la función de ayuda arrayOf() o el constructor Array().
+
+Ahora, para acceder a cualquiera del elemento, podemos usar su índice: myArray[2].
+
+[![img3](https://github.com/lorenmanu/kotlineTutorial/blob/main/imgsVariablesKotline/img2.png)]
